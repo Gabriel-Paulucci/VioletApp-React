@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #34d399;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.title {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: #047857;
+  border: none;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 2px;
+}
+
+.link {
+  color: #047857;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}

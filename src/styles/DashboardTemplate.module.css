@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #047857;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page {
+  overflow-y: scroll;
+}
+
+.title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  color: #6ee7b7;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ecfdf5;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  margin: 0.3rem 0;
+}
+
+.apps {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  color: #6ee7b7;
+  font-size: 0.9rem;
+  margin: 0.05rem 0;
+}
